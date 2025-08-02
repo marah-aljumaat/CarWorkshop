@@ -1,0 +1,104 @@
+@CarWorkshopAPI_URL = http://localhost:5001
+
+GET {{CarWorkshopAPI_URL}}/api/customer
+Accept: application/json
+###
+GET {{CarWorkshopAPI_URL}}/api/customer/4
+Accept: application/json
+###
+POST {{CarWorkshopAPI_URL}}/api/customer
+Content-Type: application/json
+{
+  "customerName": "Ali Ahmad",
+  "customerType": "Individual",
+  "customerPhone": "123456789",
+  "customerEmail": "ali@example.com"
+}
+###
+PUT {{CarWorkshopAPI_URL}}/api/customer/7 
+Content-Type: application/json
+{
+  "customerName": "Mahmuod nuor",
+  "customerType": "Individual",
+  "customerPhone": "123456789",
+  "customerEmail": "ali@example.com"
+}
+###
+DELETE {{CarWorkshopAPI_URL}}/api/customer/7
+###
+GET {{CarWorkshopAPI_URL}}/api/car
+Accept: application/json
+###
+GET {{CarWorkshopAPI_URL}}/api/car/105
+Accept: application/json
+###
+POST {{CarWorkshopAPI_URL}}/api/car/105
+Content-Type: application/json
+{
+  "plateNumber": "34A1234",
+  "color": "Black",
+  "model": "Toyota Corolla",
+  "manufactureYear": 2020,
+  "chassisNumber": "JTDBU4EE9A9123456",
+  "engineNumber": "1NZFXE123456",
+  "warrantyStartDate": "2020-03-15",
+  "warrantyEndDate": "2023-03-15",
+  "warrantyCoveredDistance": 100000,
+  "warrantyDuration": 36,
+  "odometerReading": 85000,
+  "carStatus": "Under Repair",
+  "plateType": "Private",
+  "engineType": "Gasoline",
+  "transmissionType": "Automatic"
+}
+###
+PUT {{CarWorkshopAPI_URL}}/api/car/105
+Content-Type: application/json
+{
+  "customerId": 3,
+  "plateNumber": "34A1234",
+  "color": "Black",
+  "model": "Toyota Corolla",
+  "manufactureYear": 2020,
+  "chassisNumber": "JTDBU4EE9A9123456",
+  "engineNumber": "1NZFXE123456",
+  "warrantyStartDate": "2020-03-15",
+  "warrantyEndDate": "2023-03-15",
+  "warrantyCoveredDistance": 100000,
+  "warrantyDuration": 36,
+  "odometerReading": 85000,
+  "carStatus": "Under Repair",
+  "plateType": "Private",
+  "engineType": "Gasoline",
+  "transmissionType": "Automatic"
+}
+###
+DELETE {{CarWorkshopAPI_URL}}/api/car/105
+###
+GET {{CarWorkshopAPI_URL}}/api/contact
+Accept: application/json
+###
+GET {{CarWorkshopAPI_URL}}/api/contact/13
+Accept: application/json
+###
+POST {{CarWorkshopAPI_URL}}/api/contact
+Content-Type: application/json
+{
+  "customerId": 1,
+  "contactName": "Hassan Al-Mutairi",
+  "contactRole": "Brother-in-law",
+  "contactPhone": "05698765432",
+  "contactEmail": "hassan.mutairi@fleetcorp.com"
+}
+###
+PUT {{CarWorkshopAPI_URL}}/api/contact/13
+Content-Type: application/json
+{
+  "contactId": 13,
+  "customerId": 4,
+  "contactName": "Layla Ahmed omar",
+  "contactRole": "Assistant",
+  "contactPhone": "05512347890",
+  "contactEmail": "layla.ahmed@example.com",
+  "customer":null
+}
