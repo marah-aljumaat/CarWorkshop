@@ -29,23 +29,12 @@ namespace CarWorkshopAPI.Controllers
                     Specialty = e.Specialty,
                     CommissionRate = e.CommissionRate,
                     UserName = e.UserName,
-                    AttendanceStatus = e.AttendanceStatus,
-                    AttendanceDate = e.AttendanceDate
+                   
                 }).ToListAsync();
 
             return Ok(employees);
         }
-        [HttpPost("login")]
-        public async Task <ActionResult<Employee>> checkLogin(LoginRequestDto loginRequest)
-        {
-            var employee = await _context.Employees
-            .FirstOrDefaultAsync(e => e.UserName == loginRequest.UserName && e.EmpPassword == loginRequest.EmpPassword);
-
-            if (employee == null)
-                return NotFound("Invalid username or password.");
-
-            return Ok(employee);
-        }
+        
         [HttpGet("{id}")]
         public async Task<ActionResult<EmployeeDto>> GetOneEmployee(int id)
         {
@@ -60,36 +49,14 @@ namespace CarWorkshopAPI.Controllers
                 JobTitle = employee.JobTitle,
                 Specialty = employee.Specialty,
                 CommissionRate = employee.CommissionRate,
-                UserName = employee.UserName,
-                AttendanceStatus = employee.AttendanceStatus,
-                AttendanceDate = employee.AttendanceDate
+                UserName = employee.UserName
+                
             };
 
             return Ok(dto);
         }
 
-        //تسجيل الحضور
-        [HttpPost("{id}/attendance")]
-        public async Task<IActionResult> PostAttendance(int id, AttendanceDto attendanceDto)
-        {
-            if (id != attendanceDto.EmployeeId)
-                return BadRequest("Invalid attendance data.");
-
-            var employee = await _context.Employees.FindAsync(id);
-            if (employee == null)
-                return NotFound();
-
-            var today = DateOnly.FromDateTime(DateTime.UtcNow);
-            if (employee.AttendanceDate == today && (employee.AttendanceStatus == "Present" || employee.AttendanceStatus == "present") )
-            {
-                return BadRequest("It has already been marked as present for today.");
-            }
-            employee.AttendanceStatus = attendanceDto.AttendanceStatus;
-            employee.AttendanceDate = attendanceDto.AttendanceDate;
-
-            await _context.SaveChangesAsync();
-            return NoContent();
-        }
+        
 
         [HttpPost]
         public async Task<ActionResult<EmployeeDto>> CreateNewEmployee(EmployeeDto newEmployeeDto)
@@ -134,8 +101,6 @@ namespace CarWorkshopAPI.Controllers
             existingEmployee.Specialty = updatedEmployeeDto.Specialty;
             existingEmployee.CommissionRate = updatedEmployeeDto.CommissionRate;
             existingEmployee.UserName = updatedEmployeeDto.UserName;
-            existingEmployee.AttendanceStatus = updatedEmployeeDto.AttendanceStatus;
-            existingEmployee.AttendanceDate = updatedEmployeeDto.AttendanceDate;
 
             await _context.SaveChangesAsync();
             return NoContent();

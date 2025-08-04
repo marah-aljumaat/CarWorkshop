@@ -8,7 +8,7 @@
         public string? Specialty { get; set; }
         public decimal? CommissionRate { get; set; }
         public string? UserName { get; set; }
-        public string? AttendanceStatus { get; set; }
-        public DateOnly? AttendanceDate { get; set; }
+        //public string? AttendanceStatus { get; set; }
+       // public DateOnly? AttendanceDate { get; set; }
     }
 }

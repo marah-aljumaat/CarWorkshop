@@ -164,3 +164,4 @@ C:\Users\marah\Desktop\Internship 1\CarWorkshopAPI\CarWorkshopAPI\bin\Debug\net9
 C:\Users\marah\Desktop\Internship 1\CarWorkshopAPI\CarWorkshopAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\marah\Desktop\Internship 1\CarWorkshopAPI\CarWorkshopAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\marah\Desktop\Internship 1\CarWorkshopAPI\CarWorkshopAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\marah\Desktop\Internship 1\CarWorkshopAPI\CarWorkshopAPI\obj\Debug\net9.0\CarWorkshopAPI.sourcelink.json
