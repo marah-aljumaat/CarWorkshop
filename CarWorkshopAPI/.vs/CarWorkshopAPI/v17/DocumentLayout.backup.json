@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C16C91EE-F1C5-48A4-BDB3-87920CA5D609}|CarWorkshopAPI\\CarWorkshopAPI.csproj|c:\\users\\marah\\desktop\\internship 1\\carworkshopapi\\carworkshopapi\\controllers\\invoicelinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C16C91EE-F1C5-48A4-BDB3-87920CA5D609}|CarWorkshopAPI\\CarWorkshopAPI.csproj|solutionrelative:carworkshopapi\\controllers\\invoicelinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C16C91EE-F1C5-48A4-BDB3-87920CA5D609}|CarWorkshopAPI\\CarWorkshopAPI.csproj|c:\\users\\marah\\desktop\\internship 1\\carworkshopapi\\carworkshopapi\\carworkshopapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C16C91EE-F1C5-48A4-BDB3-87920CA5D609}|CarWorkshopAPI\\CarWorkshopAPI.csproj|solutionrelative:carworkshopapi\\carworkshopapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C16C91EE-F1C5-48A4-BDB3-87920CA5D609}|CarWorkshopAPI\\CarWorkshopAPI.csproj|c:\\users\\marah\\desktop\\internship 1\\carworkshopapi\\carworkshopapi\\controllers\\specialtaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C16C91EE-F1C5-48A4-BDB3-87920CA5D609}|CarWorkshopAPI\\CarWorkshopAPI.csproj|solutionrelative:carworkshopapi\\controllers\\specialtaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16C91EE-F1C5-48A4-BDB3-87920CA5D609}|CarWorkshopAPI\\CarWorkshopAPI.csproj|c:\\users\\marah\\desktop\\internship 1\\carworkshopapi\\carworkshopapi\\controllers\\invoicelinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C16C91EE-F1C5-48A4-BDB3-87920CA5D609}|CarWorkshopAPI\\CarWorkshopAPI.csproj|solutionrelative:carworkshopapi\\controllers\\invoicelinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C16C91EE-F1C5-48A4-BDB3-87920CA5D609}|CarWorkshopAPI\\CarWorkshopAPI.csproj|c:\\users\\marah\\desktop\\internship 1\\carworkshopapi\\carworkshopapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,11 +70,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "CarWorkshopAPI.http",
+              "DocumentMoniker": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\CarWorkshopAPI.http",
+              "RelativeDocumentMoniker": "CarWorkshopAPI\\CarWorkshopAPI.http",
+              "ToolTip": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\CarWorkshopAPI.http",
+              "RelativeToolTip": "CarWorkshopAPI\\CarWorkshopAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-08-11T22:21:34.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\Controllers\\InventoryController.cs",
               "RelativeDocumentMoniker": "CarWorkshopAPI\\Controllers\\InventoryController.cs",
@@ -78,12 +95,11 @@
               "RelativeToolTip": "CarWorkshopAPI\\Controllers\\InventoryController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwBMAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T12:18:58.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T12:18:58.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CarController.cs",
               "DocumentMoniker": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\Controllers\\CarController.cs",
               "RelativeDocumentMoniker": "CarWorkshopAPI\\Controllers\\CarController.cs",
@@ -91,8 +107,7 @@
               "RelativeToolTip": "CarWorkshopAPI\\Controllers\\CarController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T12:16:44.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T12:16:44.108Z"
             },
             {
               "$type": "Document",
@@ -102,14 +117,14 @@
               "RelativeDocumentMoniker": "CarWorkshopAPI\\Controllers\\SpecialTasksController.cs",
               "ToolTip": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\Controllers\\SpecialTasksController.cs",
               "RelativeToolTip": "CarWorkshopAPI\\Controllers\\SpecialTasksController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAAAGkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA4wBIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-03T23:15:37.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LoginRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\DTO\\LoginRequestDto.cs",
               "RelativeDocumentMoniker": "CarWorkshopAPI\\DTO\\LoginRequestDto.cs",
@@ -121,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "CarWorkshopAPI\\Models\\Employee.cs",
@@ -133,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "CarWorkshopAPI\\Controllers\\TaskController.cs",
@@ -141,12 +156,11 @@
               "RelativeToolTip": "CarWorkshopAPI\\Controllers\\TaskController.cs",
               "ViewState": "AgIAAHcAAAAAAAAAAADgv38AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T16:29:41.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T16:29:41.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "InvoiceLineController.cs",
               "DocumentMoniker": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\Controllers\\InvoiceLineController.cs",
               "RelativeDocumentMoniker": "CarWorkshopAPI\\Controllers\\InvoiceLineController.cs",
@@ -154,12 +168,11 @@
               "RelativeToolTip": "CarWorkshopAPI\\Controllers\\InvoiceLineController.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAADgv0kAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T16:29:39.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T16:29:39.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "InventoryGroupController.cs",
               "DocumentMoniker": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\Controllers\\InventoryGroupController.cs",
               "RelativeDocumentMoniker": "CarWorkshopAPI\\Controllers\\InventoryGroupController.cs",
@@ -167,12 +180,11 @@
               "RelativeToolTip": "CarWorkshopAPI\\Controllers\\InventoryGroupController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T12:28:04.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T12:28:04.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "CarWorkshopAPI\\Controllers\\EmployeeController.cs",
@@ -184,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "EmployeeDto.cs",
               "DocumentMoniker": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\DTO\\EmployeeDto.cs",
               "RelativeDocumentMoniker": "CarWorkshopAPI\\DTO\\EmployeeDto.cs",
@@ -196,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AttendanceDto.cs",
               "DocumentMoniker": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\DTO\\AttendanceDto.cs",
               "RelativeDocumentMoniker": "CarWorkshopAPI\\DTO\\AttendanceDto.cs",
@@ -208,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "TaskLineController.cs",
               "DocumentMoniker": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\Controllers\\TaskLineController.cs",
               "RelativeDocumentMoniker": "CarWorkshopAPI\\Controllers\\TaskLineController.cs",
@@ -220,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ProjectController.cs",
               "DocumentMoniker": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\Controllers\\ProjectController.cs",
               "RelativeDocumentMoniker": "CarWorkshopAPI\\Controllers\\ProjectController.cs",
@@ -232,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CarServiceSystemContext.cs",
               "DocumentMoniker": "C:\\Users\\marah\\Desktop\\Internship 1\\CarWorkshopAPI\\CarWorkshopAPI\\Data\\CarServiceSystemContext.cs",
               "RelativeDocumentMoniker": "CarWorkshopAPI\\Data\\CarServiceSystemContext.cs",
